@@ -221,4 +221,124 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get genericError => 'Something went wrong.';
+
+  @override
+  String get personalKhatmasTab => 'Personal';
+
+  @override
+  String get sharedKhatmasTab => 'Group';
+
+  @override
+  String get newGroupKhatma => 'New group khatma';
+
+  @override
+  String get joinWithCode => 'Join with code';
+
+  @override
+  String get sharedEmptyTitle => 'Read together';
+
+  @override
+  String get sharedEmptyBody =>
+      'Create a shared khatma and split the 30 ajzāʾ with family or friends — or join one with an invite code.';
+
+  @override
+  String get createGroupCta => 'Create a group khatma';
+
+  @override
+  String get groupNameLabel => 'Khatma name';
+
+  @override
+  String get groupNameHint => 'Family khatma, our circle…';
+
+  @override
+  String get yourNameLabel => 'Your name';
+
+  @override
+  String get yourNameHint => 'How other members see you';
+
+  @override
+  String get createGroupButton => 'Create khatma';
+
+  @override
+  String get inviteCodeLabel => 'Invite code';
+
+  @override
+  String get inviteCodeHint => '6-character code';
+
+  @override
+  String get joinButton => 'Join khatma';
+
+  @override
+  String get invalidInviteCode => 'That invite code isn’t valid.';
+
+  @override
+  String members(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: '$count members',
+      one: '1 member',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String get inviteCode => 'Invite code';
+
+  @override
+  String get copyCode => 'Copy code';
+
+  @override
+  String get codeCopied => 'Invite code copied';
+
+  @override
+  String get sectionMembers => 'Members';
+
+  @override
+  String get sectionAjza => 'Ajzāʾ';
+
+  @override
+  String get leaveGroup => 'Leave group';
+
+  @override
+  String get leaveGroupTitle => 'Leave this khatma?';
+
+  @override
+  String leaveGroupBody(String title) {
+    return 'You’ll be removed from “$title”. Any juz you released stays open for others.';
+  }
+
+  @override
+  String get claimedByYou => 'You';
+
+  @override
+  String get tapToClaim =>
+      'Tap a juz to claim it; tap again when you’ve read it.';
+
+  @override
+  String juzTakenBy(int number, String name) {
+    return 'Juz $number is taken by $name.';
+  }
+
+  @override
+  String get groupNotFound => 'This group khatma is no longer available.';
+
+  @override
+  String get needsConnection => 'Group khatmas need an internet connection.';
+
+  @override
+  String get legendOpen => 'Open';
+
+  @override
+  String get legendYours => 'Yours';
+
+  @override
+  String get legendTaken => 'Taken';
+
+  @override
+  String get legendDone => 'Done';
+
+  @override
+  String get groupComplete =>
+      'Khatma complete together — taqabbal Allāhu minkum.';
 }

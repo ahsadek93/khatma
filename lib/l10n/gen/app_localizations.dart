@@ -439,6 +439,216 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Something went wrong.'**
   String get genericError;
+
+  /// No description provided for @personalKhatmasTab.
+  ///
+  /// In en, this message translates to:
+  /// **'Personal'**
+  String get personalKhatmasTab;
+
+  /// No description provided for @sharedKhatmasTab.
+  ///
+  /// In en, this message translates to:
+  /// **'Group'**
+  String get sharedKhatmasTab;
+
+  /// No description provided for @newGroupKhatma.
+  ///
+  /// In en, this message translates to:
+  /// **'New group khatma'**
+  String get newGroupKhatma;
+
+  /// No description provided for @joinWithCode.
+  ///
+  /// In en, this message translates to:
+  /// **'Join with code'**
+  String get joinWithCode;
+
+  /// No description provided for @sharedEmptyTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Read together'**
+  String get sharedEmptyTitle;
+
+  /// No description provided for @sharedEmptyBody.
+  ///
+  /// In en, this message translates to:
+  /// **'Create a shared khatma and split the 30 ajzāʾ with family or friends — or join one with an invite code.'**
+  String get sharedEmptyBody;
+
+  /// No description provided for @createGroupCta.
+  ///
+  /// In en, this message translates to:
+  /// **'Create a group khatma'**
+  String get createGroupCta;
+
+  /// No description provided for @groupNameLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Khatma name'**
+  String get groupNameLabel;
+
+  /// No description provided for @groupNameHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Family khatma, our circle…'**
+  String get groupNameHint;
+
+  /// No description provided for @yourNameLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Your name'**
+  String get yourNameLabel;
+
+  /// No description provided for @yourNameHint.
+  ///
+  /// In en, this message translates to:
+  /// **'How other members see you'**
+  String get yourNameHint;
+
+  /// No description provided for @createGroupButton.
+  ///
+  /// In en, this message translates to:
+  /// **'Create khatma'**
+  String get createGroupButton;
+
+  /// No description provided for @inviteCodeLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Invite code'**
+  String get inviteCodeLabel;
+
+  /// No description provided for @inviteCodeHint.
+  ///
+  /// In en, this message translates to:
+  /// **'6-character code'**
+  String get inviteCodeHint;
+
+  /// No description provided for @joinButton.
+  ///
+  /// In en, this message translates to:
+  /// **'Join khatma'**
+  String get joinButton;
+
+  /// No description provided for @invalidInviteCode.
+  ///
+  /// In en, this message translates to:
+  /// **'That invite code isn’t valid.'**
+  String get invalidInviteCode;
+
+  /// No description provided for @members.
+  ///
+  /// In en, this message translates to:
+  /// **'{count, plural, =1{1 member} other{{count} members}}'**
+  String members(int count);
+
+  /// No description provided for @inviteCode.
+  ///
+  /// In en, this message translates to:
+  /// **'Invite code'**
+  String get inviteCode;
+
+  /// No description provided for @copyCode.
+  ///
+  /// In en, this message translates to:
+  /// **'Copy code'**
+  String get copyCode;
+
+  /// No description provided for @codeCopied.
+  ///
+  /// In en, this message translates to:
+  /// **'Invite code copied'**
+  String get codeCopied;
+
+  /// No description provided for @sectionMembers.
+  ///
+  /// In en, this message translates to:
+  /// **'Members'**
+  String get sectionMembers;
+
+  /// No description provided for @sectionAjza.
+  ///
+  /// In en, this message translates to:
+  /// **'Ajzāʾ'**
+  String get sectionAjza;
+
+  /// No description provided for @leaveGroup.
+  ///
+  /// In en, this message translates to:
+  /// **'Leave group'**
+  String get leaveGroup;
+
+  /// No description provided for @leaveGroupTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Leave this khatma?'**
+  String get leaveGroupTitle;
+
+  /// No description provided for @leaveGroupBody.
+  ///
+  /// In en, this message translates to:
+  /// **'You’ll be removed from “{title}”. Any juz you released stays open for others.'**
+  String leaveGroupBody(String title);
+
+  /// No description provided for @claimedByYou.
+  ///
+  /// In en, this message translates to:
+  /// **'You'**
+  String get claimedByYou;
+
+  /// No description provided for @tapToClaim.
+  ///
+  /// In en, this message translates to:
+  /// **'Tap a juz to claim it; tap again when you’ve read it.'**
+  String get tapToClaim;
+
+  /// No description provided for @juzTakenBy.
+  ///
+  /// In en, this message translates to:
+  /// **'Juz {number} is taken by {name}.'**
+  String juzTakenBy(int number, String name);
+
+  /// No description provided for @groupNotFound.
+  ///
+  /// In en, this message translates to:
+  /// **'This group khatma is no longer available.'**
+  String get groupNotFound;
+
+  /// No description provided for @needsConnection.
+  ///
+  /// In en, this message translates to:
+  /// **'Group khatmas need an internet connection.'**
+  String get needsConnection;
+
+  /// No description provided for @legendOpen.
+  ///
+  /// In en, this message translates to:
+  /// **'Open'**
+  String get legendOpen;
+
+  /// No description provided for @legendYours.
+  ///
+  /// In en, this message translates to:
+  /// **'Yours'**
+  String get legendYours;
+
+  /// No description provided for @legendTaken.
+  ///
+  /// In en, this message translates to:
+  /// **'Taken'**
+  String get legendTaken;
+
+  /// No description provided for @legendDone.
+  ///
+  /// In en, this message translates to:
+  /// **'Done'**
+  String get legendDone;
+
+  /// No description provided for @groupComplete.
+  ///
+  /// In en, this message translates to:
+  /// **'Khatma complete together — taqabbal Allāhu minkum.'**
+  String get groupComplete;
 }
 
 class _AppLocalizationsDelegate

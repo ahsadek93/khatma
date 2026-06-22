@@ -1,9 +1,12 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 
+import '../../features/group_khatma/presentation/views/create_group_khatma_screen.dart';
+import '../../features/group_khatma/presentation/views/group_khatma_detail_screen.dart';
+import '../../features/group_khatma/presentation/views/join_group_khatma_screen.dart';
 import '../../features/khatma/presentation/views/create_khatma_screen.dart';
 import '../../features/khatma/presentation/views/khatma_detail_screen.dart';
-import '../../features/khatma/presentation/views/khatma_list_screen.dart';
+import '../../features/khatma/presentation/views/khatma_home_screen.dart';
 import '../../features/settings/presentation/views/settings_screen.dart';
 import '../../features/wird/presentation/views/wird_list_screen.dart';
 import '../presentation/home_shell.dart';
@@ -22,12 +25,27 @@ final goRouterProvider = Provider<GoRouter>((ref) {
             routes: [
               GoRoute(
                 path: '/khatma',
-                builder: (context, state) => const KhatmaListScreen(),
+                builder: (context, state) => const KhatmaHomeScreen(),
+                // Static segments are listed before ':id' so they match first.
                 routes: [
-                  // Static 'new' is listed before ':id' so it matches first.
                   GoRoute(
                     path: 'new',
                     builder: (context, state) => const CreateKhatmaScreen(),
+                  ),
+                  GoRoute(
+                    path: 'group_new',
+                    builder: (context, state) =>
+                        const CreateGroupKhatmaScreen(),
+                  ),
+                  GoRoute(
+                    path: 'group_join',
+                    builder: (context, state) => const JoinGroupKhatmaScreen(),
+                  ),
+                  GoRoute(
+                    path: 'group/:gid',
+                    builder: (context, state) => GroupKhatmaDetailScreen(
+                      groupId: state.pathParameters['gid']!,
+                    ),
                   ),
                   GoRoute(
                     path: ':id',

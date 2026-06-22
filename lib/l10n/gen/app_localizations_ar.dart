@@ -231,4 +231,126 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get genericError => 'حدث خطأٌ ما.';
+
+  @override
+  String get personalKhatmasTab => 'الفردية';
+
+  @override
+  String get sharedKhatmasTab => 'الجماعية';
+
+  @override
+  String get newGroupKhatma => 'ختمة جماعية جديدة';
+
+  @override
+  String get joinWithCode => 'الانضمام برمز';
+
+  @override
+  String get sharedEmptyTitle => 'اقرؤوا معاً';
+
+  @override
+  String get sharedEmptyBody =>
+      'أنشئ ختمة جماعية ووزّعوا الأجزاء الثلاثين مع الأهل أو الأصحاب، أو انضمّ إلى ختمة برمز دعوة.';
+
+  @override
+  String get createGroupCta => 'إنشاء ختمة جماعية';
+
+  @override
+  String get groupNameLabel => 'اسم الختمة';
+
+  @override
+  String get groupNameHint => 'ختمة العائلة، حلقتنا…';
+
+  @override
+  String get yourNameLabel => 'اسمك';
+
+  @override
+  String get yourNameHint => 'كما يراك بقية الأعضاء';
+
+  @override
+  String get createGroupButton => 'إنشاء الختمة';
+
+  @override
+  String get inviteCodeLabel => 'رمز الدعوة';
+
+  @override
+  String get inviteCodeHint => 'رمز من ٦ خانات';
+
+  @override
+  String get joinButton => 'انضمام';
+
+  @override
+  String get invalidInviteCode => 'رمز الدعوة غير صحيح.';
+
+  @override
+  String members(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: '$count عضو',
+      many: '$count عضواً',
+      few: '$count أعضاء',
+      two: 'عضوان',
+      one: 'عضو واحد',
+      zero: 'لا أعضاء',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String get inviteCode => 'رمز الدعوة';
+
+  @override
+  String get copyCode => 'نسخ الرمز';
+
+  @override
+  String get codeCopied => 'تم نسخ رمز الدعوة';
+
+  @override
+  String get sectionMembers => 'الأعضاء';
+
+  @override
+  String get sectionAjza => 'الأجزاء';
+
+  @override
+  String get leaveGroup => 'مغادرة المجموعة';
+
+  @override
+  String get leaveGroupTitle => 'مغادرة هذه الختمة؟';
+
+  @override
+  String leaveGroupBody(String title) {
+    return 'ستتم إزالتك من «$title». تبقى الأجزاء التي تركتها متاحة للآخرين.';
+  }
+
+  @override
+  String get claimedByYou => 'أنت';
+
+  @override
+  String get tapToClaim => 'اضغط على جزء لحجزه، ثم اضغط مجدداً عند إتمامه.';
+
+  @override
+  String juzTakenBy(int number, String name) {
+    return 'الجزء $number محجوز لـ $name.';
+  }
+
+  @override
+  String get groupNotFound => 'هذه الختمة الجماعية لم تعد متاحة.';
+
+  @override
+  String get needsConnection => 'تتطلب الختمات الجماعية اتصالاً بالإنترنت.';
+
+  @override
+  String get legendOpen => 'متاح';
+
+  @override
+  String get legendYours => 'لك';
+
+  @override
+  String get legendTaken => 'محجوز';
+
+  @override
+  String get legendDone => 'تم';
+
+  @override
+  String get groupComplete => 'ختمة جماعية مباركة، تقبّل الله منكم.';
 }
