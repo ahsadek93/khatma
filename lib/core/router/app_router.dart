@@ -1,6 +1,8 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 
+import '../../features/khatma/presentation/views/create_khatma_screen.dart';
+import '../../features/khatma/presentation/views/khatma_detail_screen.dart';
 import '../../features/khatma/presentation/views/khatma_list_screen.dart';
 import '../../features/settings/presentation/views/settings_screen.dart';
 import '../../features/wird/presentation/views/wird_list_screen.dart';
@@ -21,6 +23,19 @@ final goRouterProvider = Provider<GoRouter>((ref) {
               GoRoute(
                 path: '/khatma',
                 builder: (context, state) => const KhatmaListScreen(),
+                routes: [
+                  // Static 'new' is listed before ':id' so it matches first.
+                  GoRoute(
+                    path: 'new',
+                    builder: (context, state) => const CreateKhatmaScreen(),
+                  ),
+                  GoRoute(
+                    path: ':id',
+                    builder: (context, state) => KhatmaDetailScreen(
+                      khatmaId: state.pathParameters['id']!,
+                    ),
+                  ),
+                ],
               ),
             ],
           ),

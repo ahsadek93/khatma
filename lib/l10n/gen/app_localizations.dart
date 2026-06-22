@@ -188,17 +188,251 @@ abstract class AppLocalizations {
   /// **'Coming soon'**
   String get comingSoon;
 
-  /// No description provided for @khatmaEmpty.
-  ///
-  /// In en, this message translates to:
-  /// **'No khatmas yet. Tap + to start one.'**
-  String get khatmaEmpty;
-
   /// No description provided for @wirdEmpty.
   ///
   /// In en, this message translates to:
   /// **'No adhkār yet. Tap + to add one.'**
   String get wirdEmpty;
+
+  /// No description provided for @newKhatma.
+  ///
+  /// In en, this message translates to:
+  /// **'New khatma'**
+  String get newKhatma;
+
+  /// No description provided for @startFirstKhatmaTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Start your first khatma'**
+  String get startFirstKhatmaTitle;
+
+  /// No description provided for @startFirstKhatmaBody.
+  ///
+  /// In en, this message translates to:
+  /// **'Plan to complete the Qur\'an, juz\' by juz\', at a pace that suits you.'**
+  String get startFirstKhatmaBody;
+
+  /// No description provided for @startKhatmaCta.
+  ///
+  /// In en, this message translates to:
+  /// **'Start a khatma'**
+  String get startKhatmaCta;
+
+  /// No description provided for @khatmaTitleLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Khatma name'**
+  String get khatmaTitleLabel;
+
+  /// No description provided for @khatmaTitleHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Ramadan khatma, monthly khatma…'**
+  String get khatmaTitleHint;
+
+  /// No description provided for @goalLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Finish within'**
+  String get goalLabel;
+
+  /// No description provided for @goalWeek.
+  ///
+  /// In en, this message translates to:
+  /// **'A week'**
+  String get goalWeek;
+
+  /// No description provided for @goalMonth.
+  ///
+  /// In en, this message translates to:
+  /// **'A month'**
+  String get goalMonth;
+
+  /// No description provided for @goalCustom.
+  ///
+  /// In en, this message translates to:
+  /// **'Pick a date'**
+  String get goalCustom;
+
+  /// No description provided for @targetDateLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Finish by'**
+  String get targetDateLabel;
+
+  /// No description provided for @createButton.
+  ///
+  /// In en, this message translates to:
+  /// **'Create khatma'**
+  String get createButton;
+
+  /// No description provided for @readTodayTarget.
+  ///
+  /// In en, this message translates to:
+  /// **'{count, plural, =0{All done for today} =1{Read 1 juz\' today} other{Read {count} juz\' today}}'**
+  String readTodayTarget(int count);
+
+  /// No description provided for @juzPerDay.
+  ///
+  /// In en, this message translates to:
+  /// **'{count, plural, =1{1 juz\' a day} other{{count} juz\' a day}}'**
+  String juzPerDay(int count);
+
+  /// No description provided for @daysLeft.
+  ///
+  /// In en, this message translates to:
+  /// **'{count, plural, =0{Last day} =1{1 day left} other{{count} days left}}'**
+  String daysLeft(int count);
+
+  /// No description provided for @remainingJuzLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'{count, plural, =0{Complete} =1{1 juz\' left} other{{count} juz\' left}}'**
+  String remainingJuzLabel(int count);
+
+  /// No description provided for @finishByDate.
+  ///
+  /// In en, this message translates to:
+  /// **'Finish by {date}'**
+  String finishByDate(String date);
+
+  /// No description provided for @statRemaining.
+  ///
+  /// In en, this message translates to:
+  /// **'Remaining'**
+  String get statRemaining;
+
+  /// No description provided for @statDaysLeft.
+  ///
+  /// In en, this message translates to:
+  /// **'Days left'**
+  String get statDaysLeft;
+
+  /// No description provided for @statPerDay.
+  ///
+  /// In en, this message translates to:
+  /// **'Per day'**
+  String get statPerDay;
+
+  /// No description provided for @sectionJuz.
+  ///
+  /// In en, this message translates to:
+  /// **'Ajzāʾ'**
+  String get sectionJuz;
+
+  /// No description provided for @paceOnTrack.
+  ///
+  /// In en, this message translates to:
+  /// **'On track'**
+  String get paceOnTrack;
+
+  /// No description provided for @paceBehind.
+  ///
+  /// In en, this message translates to:
+  /// **'Behind'**
+  String get paceBehind;
+
+  /// No description provided for @paceAhead.
+  ///
+  /// In en, this message translates to:
+  /// **'Ahead'**
+  String get paceAhead;
+
+  /// No description provided for @paceDone.
+  ///
+  /// In en, this message translates to:
+  /// **'Completed'**
+  String get paceDone;
+
+  /// No description provided for @paceOverdue.
+  ///
+  /// In en, this message translates to:
+  /// **'Overdue'**
+  String get paceOverdue;
+
+  /// No description provided for @bannerDone.
+  ///
+  /// In en, this message translates to:
+  /// **'Khatma complete — taqabbal Allāhu minkum.'**
+  String get bannerDone;
+
+  /// No description provided for @bannerAhead.
+  ///
+  /// In en, this message translates to:
+  /// **'Ahead of schedule, mā shāʾ Allāh.'**
+  String get bannerAhead;
+
+  /// No description provided for @bannerOnTrack.
+  ///
+  /// In en, this message translates to:
+  /// **'Right on track — keep going.'**
+  String get bannerOnTrack;
+
+  /// No description provided for @bannerBehind.
+  ///
+  /// In en, this message translates to:
+  /// **'A little behind — a steady pace will catch you up.'**
+  String get bannerBehind;
+
+  /// No description provided for @bannerOverdue.
+  ///
+  /// In en, this message translates to:
+  /// **'Past the finish date — adjust it, or finish strong.'**
+  String get bannerOverdue;
+
+  /// No description provided for @renameKhatma.
+  ///
+  /// In en, this message translates to:
+  /// **'Rename'**
+  String get renameKhatma;
+
+  /// No description provided for @renameKhatmaTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Rename khatma'**
+  String get renameKhatmaTitle;
+
+  /// No description provided for @deleteKhatma.
+  ///
+  /// In en, this message translates to:
+  /// **'Delete'**
+  String get deleteKhatma;
+
+  /// No description provided for @deleteKhatmaTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Delete khatma?'**
+  String get deleteKhatmaTitle;
+
+  /// No description provided for @deleteKhatmaBody.
+  ///
+  /// In en, this message translates to:
+  /// **'This permanently removes “{title}” and its progress.'**
+  String deleteKhatmaBody(String title);
+
+  /// No description provided for @cancel.
+  ///
+  /// In en, this message translates to:
+  /// **'Cancel'**
+  String get cancel;
+
+  /// No description provided for @save.
+  ///
+  /// In en, this message translates to:
+  /// **'Save'**
+  String get save;
+
+  /// No description provided for @khatmaNotFound.
+  ///
+  /// In en, this message translates to:
+  /// **'This khatma is no longer available.'**
+  String get khatmaNotFound;
+
+  /// No description provided for @genericError.
+  ///
+  /// In en, this message translates to:
+  /// **'Something went wrong.'**
+  String get genericError;
 }
 
 class _AppLocalizationsDelegate

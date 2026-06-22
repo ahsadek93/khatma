@@ -4,8 +4,10 @@
   "navKhatma": "Khatma",
   "navWird": "Wird",
   "navSettings": "Settings",
+
   "khatmaTitle": "My Khatmas",
   "wirdTitle": "My Wird",
+
   "settingsTitle": "Settings",
   "settingsLanguage": "Language",
   "settingsTheme": "Appearance",
@@ -14,7 +16,77 @@
   "themeDark": "Dark",
   "languageArabic": "العربية",
   "languageEnglish": "English",
+
   "comingSoon": "Coming soon",
-  "khatmaEmpty": "No khatmas yet. Tap + to start one.",
-  "wirdEmpty": "No adhkār yet. Tap + to add one."
+  "wirdEmpty": "No adhkār yet. Tap + to add one.",
+
+  "newKhatma": "New khatma",
+  "startFirstKhatmaTitle": "Start your first khatma",
+  "startFirstKhatmaBody": "Plan to complete the Qur'an, juz' by juz', at a pace that suits you.",
+  "startKhatmaCta": "Start a khatma",
+
+  "khatmaTitleLabel": "Khatma name",
+  "khatmaTitleHint": "Ramadan khatma, monthly khatma…",
+  "goalLabel": "Finish within",
+  "goalWeek": "A week",
+  "goalMonth": "A month",
+  "goalCustom": "Pick a date",
+  "targetDateLabel": "Finish by",
+  "createButton": "Create khatma",
+
+  "readTodayTarget": "{count, plural, =0{All done for today} =1{Read 1 juz' today} other{Read {count} juz' today}}",
+  "@readTodayTarget": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+
+  "juzPerDay": "{count, plural, =1{1 juz' a day} other{{count} juz' a day}}",
+  "@juzPerDay": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+
+  "daysLeft": "{count, plural, =0{Last day} =1{1 day left} other{{count} days left}}",
+  "@daysLeft": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+
+  "remainingJuzLabel": "{count, plural, =0{Complete} =1{1 juz' left} other{{count} juz' left}}",
+  "@remainingJuzLabel": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+
+  "finishByDate": "Finish by {date}",
+  "@finishByDate": {
+    "placeholders": { "date": { "type": "String" } }
+  },
+
+  "statRemaining": "Remaining",
+  "statDaysLeft": "Days left",
+  "statPerDay": "Per day",
+  "sectionJuz": "Ajzāʾ",
+
+  "paceOnTrack": "On track",
+  "paceBehind": "Behind",
+  "paceAhead": "Ahead",
+  "paceDone": "Completed",
+  "paceOverdue": "Overdue",
+
+  "bannerDone": "Khatma complete — taqabbal Allāhu minkum.",
+  "bannerAhead": "Ahead of schedule, mā shāʾ Allāh.",
+  "bannerOnTrack": "Right on track — keep going.",
+  "bannerBehind": "A little behind — a steady pace will catch you up.",
+  "bannerOverdue": "Past the finish date — adjust it, or finish strong.",
+
+  "renameKhatma": "Rename",
+  "renameKhatmaTitle": "Rename khatma",
+  "deleteKhatma": "Delete",
+  "deleteKhatmaTitle": "Delete khatma?",
+  "deleteKhatmaBody": "This permanently removes “{title}” and its progress.",
+  "@deleteKhatmaBody": {
+    "placeholders": { "title": { "type": "String" } }
+  },
+
+  "cancel": "Cancel",
+  "save": "Save",
+  "khatmaNotFound": "This khatma is no longer available.",
+  "genericError": "Something went wrong."
 }

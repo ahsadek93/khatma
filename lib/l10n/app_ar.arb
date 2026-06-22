@@ -4,8 +4,10 @@
   "navKhatma": "الختمة",
   "navWird": "الورد",
   "navSettings": "الإعدادات",
+
   "khatmaTitle": "ختماتي",
   "wirdTitle": "وردي",
+
   "settingsTitle": "الإعدادات",
   "settingsLanguage": "اللغة",
   "settingsTheme": "المظهر",
@@ -14,7 +16,56 @@
   "themeDark": "داكن",
   "languageArabic": "العربية",
   "languageEnglish": "English",
+
   "comingSoon": "قريباً",
-  "khatmaEmpty": "لا توجد ختمات بعد. اضغط + لبدء ختمة.",
-  "wirdEmpty": "لا توجد أذكار بعد. اضغط + لإضافة ذكر."
+  "wirdEmpty": "لا توجد أذكار بعد. اضغط + لإضافة ذكر.",
+
+  "newKhatma": "ختمة جديدة",
+  "startFirstKhatmaTitle": "ابدأ ختمتك الأولى",
+  "startFirstKhatmaBody": "خطّط لإتمام القرآن الكريم جزءاً بجزء، وبوتيرةٍ تناسبك.",
+  "startKhatmaCta": "ابدأ ختمة",
+
+  "khatmaTitleLabel": "اسم الختمة",
+  "khatmaTitleHint": "ختمة رمضان، ختمة شهرية…",
+  "goalLabel": "مدة الإتمام",
+  "goalWeek": "أسبوع",
+  "goalMonth": "شهر",
+  "goalCustom": "اختر تاريخاً",
+  "targetDateLabel": "تاريخ الإتمام",
+  "createButton": "إنشاء الختمة",
+
+  "readTodayTarget": "{count, plural, =0{أتممت ورد اليوم} one{اقرأ جزءاً اليوم} two{اقرأ جزأين اليوم} few{اقرأ {count} أجزاء اليوم} many{اقرأ {count} جزءاً اليوم} other{اقرأ {count} جزء اليوم}}",
+  "juzPerDay": "{count, plural, one{جزء واحد يومياً} two{جزآن يومياً} few{{count} أجزاء يومياً} many{{count} جزءاً يومياً} other{{count} جزء يومياً}}",
+  "daysLeft": "{count, plural, =0{آخر يوم} one{بقي يوم واحد} two{بقي يومان} few{بقيت {count} أيام} many{بقي {count} يوماً} other{بقي {count} يوم}}",
+  "remainingJuzLabel": "{count, plural, =0{اكتملت} one{بقي جزء واحد} two{بقي جزآن} few{بقيت {count} أجزاء} many{بقي {count} جزءاً} other{بقي {count} جزء}}",
+
+  "finishByDate": "الإتمام في {date}",
+
+  "statRemaining": "المتبقّي",
+  "statDaysLeft": "الأيام",
+  "statPerDay": "يومياً",
+  "sectionJuz": "الأجزاء",
+
+  "paceOnTrack": "في الموعد",
+  "paceBehind": "متأخّر",
+  "paceAhead": "متقدّم",
+  "paceDone": "اكتملت",
+  "paceOverdue": "فات الموعد",
+
+  "bannerDone": "ختمة مباركة، تقبّل الله منكم.",
+  "bannerAhead": "متقدّمٌ على الخطة، ما شاء الله.",
+  "bannerOnTrack": "أنت في الموعد تماماً، واصِل.",
+  "bannerBehind": "تأخّرٌ يسير، وثباتك على الوتيرة كفيلٌ باللحاق.",
+  "bannerOverdue": "تجاوزت تاريخ الإتمام — عدّله أو أكمِل بعزيمة.",
+
+  "renameKhatma": "إعادة تسمية",
+  "renameKhatmaTitle": "إعادة تسمية الختمة",
+  "deleteKhatma": "حذف",
+  "deleteKhatmaTitle": "حذف الختمة؟",
+  "deleteKhatmaBody": "سيُحذف «{title}» وكل تقدّمه نهائياً.",
+
+  "cancel": "إلغاء",
+  "save": "حفظ",
+  "khatmaNotFound": "هذه الختمة لم تعد متاحة.",
+  "genericError": "حدث خطأٌ ما."
 }
