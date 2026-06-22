@@ -54,6 +54,10 @@ class AppLocalizationsAr extends AppLocalizations {
   String get comingSoon => 'قريباً';
 
   @override
+  String get wirdComingSoonBody =>
+      'عدّاد الورد والأذكار في الطريق. تركّز النسخة الأولى من ختمة على ختمة القرآن.';
+
+  @override
   String get wirdEmpty => 'لا توجد أذكار بعد. اضغط + لإضافة ذكر.';
 
   @override

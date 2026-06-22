@@ -188,6 +188,12 @@ abstract class AppLocalizations {
   /// **'Coming soon'**
   String get comingSoon;
 
+  /// No description provided for @wirdComingSoonBody.
+  ///
+  /// In en, this message translates to:
+  /// **'The wird & dhikr counter is on its way. Khatmah v1 focuses on the Qur\'an khatma.'**
+  String get wirdComingSoonBody;
+
   /// No description provided for @wirdEmpty.
   ///
   /// In en, this message translates to:

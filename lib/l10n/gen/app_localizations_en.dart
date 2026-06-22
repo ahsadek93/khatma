@@ -54,6 +54,10 @@ class AppLocalizationsEn extends AppLocalizations {
   String get comingSoon => 'Coming soon';
 
   @override
+  String get wirdComingSoonBody =>
+      'The wird & dhikr counter is on its way. Khatmah v1 focuses on the Qur\'an khatma.';
+
+  @override
   String get wirdEmpty => 'No adhkār yet. Tap + to add one.';
 
   @override
