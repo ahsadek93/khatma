@@ -1,0 +1,20 @@
+{
+  "@@locale": "en",
+  "appName": "Khatmah",
+  "navKhatma": "Khatma",
+  "navWird": "Wird",
+  "navSettings": "Settings",
+  "khatmaTitle": "My Khatmas",
+  "wirdTitle": "My Wird",
+  "settingsTitle": "Settings",
+  "settingsLanguage": "Language",
+  "settingsTheme": "Appearance",
+  "themeSystem": "System",
+  "themeLight": "Light",
+  "themeDark": "Dark",
+  "languageArabic": "العربية",
+  "languageEnglish": "English",
+  "comingSoon": "Coming soon",
+  "khatmaEmpty": "No khatmas yet. Tap + to start one.",
+  "wirdEmpty": "No adhkār yet. Tap + to add one."
+}

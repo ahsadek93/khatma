@@ -1,0 +1,20 @@
+{
+  "@@locale": "ar",
+  "appName": "ختمة",
+  "navKhatma": "الختمة",
+  "navWird": "الورد",
+  "navSettings": "الإعدادات",
+  "khatmaTitle": "ختماتي",
+  "wirdTitle": "وردي",
+  "settingsTitle": "الإعدادات",
+  "settingsLanguage": "اللغة",
+  "settingsTheme": "المظهر",
+  "themeSystem": "النظام",
+  "themeLight": "فاتح",
+  "themeDark": "داكن",
+  "languageArabic": "العربية",
+  "languageEnglish": "English",
+  "comingSoon": "قريباً",
+  "khatmaEmpty": "لا توجد ختمات بعد. اضغط + لبدء ختمة.",
+  "wirdEmpty": "لا توجد أذكار بعد. اضغط + لإضافة ذكر."
+}
